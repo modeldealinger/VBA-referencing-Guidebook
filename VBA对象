@@ -1,0 +1,21 @@
+VBA对象
+
+  VBA中的对象就是一个具体实例，属性的excel中支持的对象
+  
+ 1.工作簿
+    ·Workbooks代表工作簿集合，所有的工作簿，Workbook(N),表示已打开的第N个工作簿
+    ·Workbooks("工作簿名称")
+    ActiveWorkbook:正在操作的工作簿
+    ThisWorkBookd:代码所在的工作簿
+ 2.工作表
+    ·Sheets("工作表名称")
+    ·Sheete1表示第一个插入的工作表，Sheet2表示第二个插入的工作表
+    ·Sheets(n)表示安排列顺序，第n个工作表
+    ·ActiveSheet:表示活动工作表，光标所在工作表
+    ·worksheet:也表示工作表，但不包括图标工作表、宏工作表等
+ 3.单元格
+    ·cells:所有单元格
+    ·Range("单元格地址")
+    ·Cells(行数，列数)
+    ·Activecell:正在选中或编辑的单元格
+    ·Selection:正被选中或选取的单元格或单元格区域
